@@ -17,7 +17,6 @@ class HuberLoss(Loss):
     r"""
         The Huber loss function describes the penalty incurred by an estimation procedure f. Huber (1964) 
         See wikipedia for details here: https://en.wikipedia.org/wiki/Huber_loss
-        Typically used in Siamese Network.
             Args:
                 - threshold: delta value in the huber loss equation.
             Returns:
