@@ -59,9 +59,9 @@ class ResidualUNet():
         c = keras.layers.Concatenate()([u, xskip])
         return c
 
-    def make_model(self):
+    def build(self):
         """
-        Makes the model,
+        builds the model,
             Returns:
                 - Tensorflow Model object for ResUNet
         """
