@@ -12,7 +12,6 @@ def dice_loss(y_true, y_pred):
     return 1.0 - dice_coef(y_true, y_pred)
 
 
-
 class HuberLoss(Loss):
     r"""
         The Huber loss function describes the penalty incurred by an estimation procedure f. Huber (1964) 
