@@ -1,13 +1,24 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/theroyakash/dlf"><img src="https://i.imgur.com/hoWNKR5.png" alt="AKDSFramework" width="800"></a>
-</h1>
+# DLF (Deep Learning as a Framework)
 
-# Deep Learning as a Framework (dlf)
+**DLF** is a Easy to use library to get started with deep learning development. You don't need to implement popular models like ResNet, ResUNet, simple classification models, YOLO object detection models, loss functions like huber loss, contrastive loss, YOLO loss and many more.  
 
-Python based deep learning package that provides all basic implementations for popular deep learning and machine learning algorithms.
+## Dependencies
+Built on top of Keras and tensorflow, this library provides optimized implementations for popular deep learning models and losses and other utility functions.
 
-Our Package will allow user to quickly setup and use popular deep learning algorithms and not to worry about finding implementation online or doing that manually.
+## Installation
 
-# What?
-We didn't develop a framework from scratch, but we provide pre-built models on top of built from scratch models so that people just could import and use them.
+<Callout emoji="⚠️">
+  We have not deployed the framework yet on PyPI, we are on the track to do so in couple of months. PyPI enables us to deploy the framework worldwide and provides a easier installation on fresh machines.
+</Callout>
+
+- First download/clone this repo like `git clone https://github.com/theroyakash/dlf.git`
+- Now uninstall if any previous version installed `pip3 uninstall dlf`
+- Now install fresh on your machine `pip3 install -e dlf`
+
+## Alternate installation
+This is easier to install this way but a bit slower in the installation time.
+
+```bash highlight=2
+pip3 uninstall dlf  # If there any previous version installed
+pip3 install https://github.com/theroyakash/dlf/tarball/main
+```
